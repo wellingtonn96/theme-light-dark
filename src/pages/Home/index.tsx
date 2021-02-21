@@ -6,10 +6,12 @@ import Header from '../../components/header'
 
 const Home: React.FC = () => {
   return (
-    <Container>
+    <>
       <Header />
-      <h1>Hello Home</h1>
-    </Container>
+      <Container>
+        <h1>Hello Home</h1>
+      </Container>
+    </>
   )
 }
 
